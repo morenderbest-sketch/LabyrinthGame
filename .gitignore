@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+savegame.txt
+game_log.txt
+
 # Compiled Object files
 *.slo
 *.lo
