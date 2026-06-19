@@ -14,13 +14,13 @@
 Если ничего не происходит при двойном клике — попробуйте через командную строку:
 ```
 cd путь\до\папки
-labyrinth.exe
+labyrinth-windows.exe
 ```
 
 Если вместо русского текста отображаются кракозябры:
 ```
 chcp 65001
-labyrinth.exe
+labyrinth-windows.exe
 ```
 
 ---
@@ -30,15 +30,15 @@ labyrinth.exe
 Скачайте файл `labyrinth-macos`, откройте Терминал и напишите:
 
 ```bash
-chmod +x labyrinth
-./labyrinth
+chmod +x labyrinth-macos
+./labyrinth-macos
 ```
 
 Если macOS не даёт запустить («разработчик неизвестен»):
 
 ```bash
-xattr -d com.apple.quarantine labyrinth
-./labyrinth
+xattr -d com.apple.quarantine labyrinth-macos
+./labyrinth-macos
 ```
 
 Или через **Системные настройки → Конфиденциальность и безопасность** и нажать «Разрешить».
